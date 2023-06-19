@@ -199,3 +199,15 @@ h3 {
   color: var(--main_darker_color);
   font-size: 1.5rem;
 }
+
+/* --they say */
+
+.ms_magazine_logos {
+  margin-top: 4rem;
+}
+
+.ms_magazine_logos img {
+  height: 2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
