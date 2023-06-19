@@ -10,9 +10,21 @@
 
 /* GENERAL */
 
+*,
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 section {
   padding: 3rem 0;
   margin: 5rem 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
 }
 
 .ms_bg_main {
@@ -36,7 +48,6 @@ section {
 }
 
 .ms_section_title {
-  font-family: var(--font-serif);
   color: var(--black_text_color);
   font-size: 2rem;
   margin-bottom: 2.5rem;
@@ -103,7 +114,7 @@ section {
 
 #jumbotron {
   height: 35rem;
-  background-image: url("/img/villa-posarellivillas.jpg");
+  background-image: url("../img/villa-posarellivillas.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
