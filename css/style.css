@@ -47,6 +47,12 @@ h3 {
   color: var(--light_gray_color);
 }
 
+.ms_logo {
+  font-family: var(--font-serif);
+  text-decoration: none;
+  font-weight: 500;
+}
+
 .ms_section_title {
   color: var(--black_text_color);
   font-size: 2rem;
@@ -93,13 +99,6 @@ h3 {
 
 .ms_navbar_collapse {
   flex-grow: 0 !important;
-}
-
-.ms_logo_navbar {
-  text-decoration: none;
-  font-size: 1.7rem;
-  font-weight: 500;
-  font-family: var(--font-serif);
 }
 
 .ms_svg_navbar {
@@ -213,3 +212,6 @@ h3 {
 }
 
 /* FOOTER*/
+
+.footer-logo {
+}
